@@ -7,7 +7,7 @@ namespace FollowerHomework
     [RequireComponent(typeof(Rigidbody))]
     public class Enemy : MonoBehaviour
     {
-        private const float SpeedMultiplier = 1f;
+        private const float SpeedMultiplier = 0.9f;
 
         [SerializeField] private LayerMask _groundMask;
         [SerializeField] private bool _isGrounded;
