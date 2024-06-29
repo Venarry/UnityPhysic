@@ -1014,7 +1014,7 @@ HingeJoint:
   m_Spring:
     spring: 150
     damper: 2
-    targetPosition: 30
+    targetPosition: 0
   m_UseMotor: 0
   m_Motor:
     targetVelocity: 1000

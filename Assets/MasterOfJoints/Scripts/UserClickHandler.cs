@@ -18,6 +18,11 @@ namespace MasterOfJoints
             {
                 _catapulteHandler.Shoot();
             }
+
+            if (Input.GetKeyDown(KeyCode.R))
+            {
+                _catapulteHandler.ResetShooting();
+            }
         }
     }
 }
